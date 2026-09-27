@@ -1,0 +1,16 @@
+{
+  "budget": 2,
+  "capacity": 3,
+  "key_error_code": "E_BAD_KEY",
+  "capacity_error_code": "E_BAD_CAPACITY",
+  "duplicate_error_code": "E_DUPLICATE_KEY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "t1": [null, null, null], "t2": [null, null, null], "evicted": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "put", "name": "a" },
+    { "id": 2, "kind": "put", "name": "b" },
+    { "id": 3, "kind": "put", "name": "c" },
+    { "id": 4, "kind": "put", "name": "d" },
+    { "id": 5, "kind": "put", "name": "e" }
+  ]
+}
